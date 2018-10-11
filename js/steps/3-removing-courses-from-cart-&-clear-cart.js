@@ -69,14 +69,7 @@ function addIntoCart(course) {
     `;
     // add into the shopping cart
     shoppingCartContent.appendChild(row);
-
-    // add course into storage
-    saveIntoStorage(course);
-
 }
-
-// add the courses into the local storage
-
 
 // remove course from the dom
 function removeCourse(e) {
